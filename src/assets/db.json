@@ -1,0 +1,53 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "accountNumber": "1234567890",
+      "accountHolderName": "John Doe",
+      "phoneNumber": "123-456-7890",
+      "availableBalance": 5000
+    }
+  ],
+  "beneficiaries": [
+    {
+      "id": 1,
+      "accountHolderName": "John Doe",
+      "accountNumber": "2345678901",
+      "bankName": "ABC Bank",
+      "ifscCode": "ABC123"
+    },
+    {
+      "id": 2,
+      "accountHolderName": "Jane Smith",
+      "accountNumber": "3456789012",
+      "bankName": "XYZ Bank",
+      "ifscCode": "XYZ456"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "beneficiaryId": 1,
+      "transactionAmount": 1000,
+      "transactionDate": "2023-11-07T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "beneficiaryId": 2,
+      "transactionAmount": 1500,
+      "transactionDate": "2023-11-06T15:30:00Z"
+    },
+    {
+      "id": 3,
+      "beneficiaryId": 1,
+      "transactionAmount": 4,
+      "transactionDate": "2023-11-25T06:02:45.296Z"
+    },
+    {
+      "id": 4,
+      "beneficiaryId": 1,
+      "transactionAmount": 77,
+      "transactionDate": "2023-11-25T06:03:47.401Z"
+    }
+  ]
+}
