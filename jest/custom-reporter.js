@@ -38,7 +38,7 @@ class MyCustomReporter {
     };
 
     try {
-      const data = fs.readFileSync("../../custom.ih", "utf8");
+      const data = fs.readFileSync("../custom.ih", "utf8");
       customData = data;
     } catch (err) {
       console.error(err);
