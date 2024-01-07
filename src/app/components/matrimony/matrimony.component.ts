@@ -20,8 +20,6 @@ export class MatrimonyComponent {
   isEditing = false;
   searchKeyword = '';
 
-  constructor() { }
-
   addUser(): void {
   }
 
